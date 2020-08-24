@@ -21,3 +21,6 @@ You need to get the compilers for all the above languages.
 #Testing - IDK about your languages, put accordingly  
 #Document Generation - N/A  
 #Long Term Storage - Zenodo  
+
+## Information about review for debugging -  
+An excel sheet is created to capture the information of the people reviewing our code and the bugs. Token numbers are assigned to it to facilatate deleting the rows. 
