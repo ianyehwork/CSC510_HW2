@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository will contain the game of life coded in the following languages - Ruby, Processing, Go
+This repository will contain the game of life coded in the following languages - Ruby, Processing, Kotlin
 
 ## Requirements
 
@@ -13,7 +13,7 @@ You need to get the compilers for all the above languages.
 #Configuration Management - Github  
 #Build, Install Tools - core compiler  
 #Window Manager - Ubuntu / Windows 10 / MacOS.   
-#Coding - ruby / processing / cotlin  
+#Coding - ruby / processing / Kotlin  
 #Style checking - pep8   
 #Long Term Storage - Zenodo  
 
