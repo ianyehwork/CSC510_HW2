@@ -43,7 +43,7 @@ void draw(){
     }
   }
   // Creating a new grid for storing the next state of the game
-  int[][] new_grid = gameGrid(cols, rows);
+  int[][] new_grids = gameGrid(cols, rows);
   
   for(int i = 0; i < rows; i++){
     for(int j = 0; j < cols; j++){
@@ -61,8 +61,7 @@ void draw(){
       if (j < cols-1)
       sum += grid[i][j+1];
       if (i < rows-1){
-        if(j > 0)
-          sum += grid[i+1][j-1];
+        sum += grid[i+1][j-1];
         sum += grid[i+1][j];
         if (j < cols-1)
           sum += grid[i+1][j+1];
