@@ -12,7 +12,7 @@ You need to get the compilers for all the above languages.
 
 #Configuration Management - Github  
 #Build, Install Tools - core compiler  
-#Window Manager - Ubuntu / Windows 10 / MacOS 
+#Window Manager - Ubuntu / Windows 10 / MacOS.   
 #Coding - ruby / processing / cotlin  
 #Style checking - pep8   
 #Long Term Storage - Zenodo  
