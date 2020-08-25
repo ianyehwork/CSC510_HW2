@@ -37,7 +37,7 @@ def life(rows, cols, some, generations)
 end
 
 def has_neighbor(a, r, c, rows, cols)
-    if r >= 0 && r < rows && c >= 0 && c < cols && a[r][c] == 1
+    if r >= 0 && r < rows && c >= 0 && c < cols
         return 1
     else
         return 0
@@ -54,7 +54,7 @@ def live(a, rows, cols, gen)
     puts "Generation #{gen}"
     for r in (0..(rows-1)).to_a do
         for c in (0..(cols-1)).to_a do
-            if a[r][c] == 1
+            if a[r][c]
                 putc "o"
             else 
                 putc " "
