@@ -1,5 +1,8 @@
 # CSC510_HW2
 
+## Post Experiment Survey
+https://docs.google.com/forms/d/e/1FAIpQLSeAyvzNEJ6ozMKzJXRQOpA_AgN3aico8uZJ9fSEIe81Bukxow/viewform?usp=sf_link
+
 ## Introduction
 
 This repository will contain the game of life coded in the following languages - Ruby, Processing, Kotlin
