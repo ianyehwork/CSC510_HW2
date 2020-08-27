@@ -37,8 +37,8 @@ class Life(val pattern: Pattern) {
         when (pattern) {
 
             Pattern.RANDOM -> {
-                v1 = 80
-                v2 = 15
+                v1 = 5
+                v2 = 5
                 v3 = Field(v1, v2)
                 v4 = Field(v1, v2)
                 for (i in 0 until v1 * v2 / 2) {
@@ -63,7 +63,7 @@ class Life(val pattern: Pattern) {
         val sb = StringBuilder()
         for (y in 0 until v2) {
             for (x in 0 until v1) {
-                val c = if (v3.state(x, y)) '#' else '.'
+                val c = if (v3.state(x, y)) '1' else '0'
                 sb.append(c)
             }
             sb.append('\n')
@@ -74,7 +74,7 @@ class Life(val pattern: Pattern) {
 
 fun main(args: Array<String>) {
     val lives = listOf(
-        Triple(Life(Pattern.RANDOM), 100, "RANDOM")
+        Triple(Life(Pattern.RANDOM), 5, "RANDOM")
     )
     for ((game, gens, title) in lives) {
         println("$title:\n")
